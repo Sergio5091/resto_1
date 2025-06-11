@@ -31,42 +31,29 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (category === 'meals') {
             items = [
-                { name: 'Steak Frites', price: '18.50', image: 'https://via.placeholder.com/300x200?text=Steak+Frites' },
-                { name: 'Poulet Rôti', price: '16.90', image: 'https://via.placeholder.com/300x200?text=Poulet+Rôti' },
-                { name: 'Salade César', price: '12.50', image: 'https://via.placeholder.com/300x200?text=Salade+César' },
-                { name: 'Boeuf Bourguignon', price: '20.00', image: 'https://via.placeholder.com/300x200?text=Boeuf+Bourguignon' },
-                { name: 'Risotto aux Champignons', price: '15.90', image: 'https://via.placeholder.com/300x200?text=Risotto' },
-                { name: 'Saumon Grillée', price: '19.50', image: 'https://via.placeholder.com/300x200?text=Saumon' },
-                { name: 'Pâtes Carbonara', price: '14.90', image: 'https://via.placeholder.com/300x200?text=Carbonara' },
-                { name: 'Ratatouille', price: '13.50', image: 'https://via.placeholder.com/300x200?text=Ratatouille' },
-                { name: 'Magret de Canard', price: '22.00', image: 'https://via.placeholder.com/300x200?text=Canard' },
-                { name: 'Tartiflette', price: '17.50', image: 'https://via.placeholder.com/300x200?text=Tartiflette' }
+                { name: 'Steak Frites', price: '18.50', image: 'Steak_frites.jpg' },
+                { name: 'Poulet Rôti', price: '16.90', image: 'poulet-roti.jpeg' },
+                { name: 'Salade César', price: '12.50', image: 'salade.jpeg' },
+                { name: 'Boeuf Bourguignon', price: '20.00', image: 'piron.jpg' },
+                { name: 'Risotto aux Champignons', price: '15.90', image: 'plat1.jpg' },
+               
             ];
         } else if (category === 'desserts') {
             items = [
-                { name: 'Crème Brûlée', price: '7.50', image: 'https://via.placeholder.com/300x200?text=Crème+Brûlée' },
-                { name: 'Tarte Tatin', price: '8.00', image: 'https://via.placeholder.com/300x200?text=Tarte+Tatin' },
-                { name: 'Mousse au Chocolat', price: '6.90', image: 'https://via.placeholder.com/300x200?text=Mousse' },
-                { name: 'Profiteroles', price: '8.50', image: 'https://via.placeholder.com/300x200?text=Profiteroles' },
-                { name: 'Île Flottante', price: '7.00', image: 'https://via.placeholder.com/300x200?text=Île+Flottante' },
-                { name: 'Fondant au Chocolat', price: '7.90', image: 'https://via.placeholder.com/300x200?text=Fondant' },
-                { name: 'Tiramisu', price: '8.00', image: 'https://via.placeholder.com/300x200?text=Tiramisu' },
-                { name: 'Cheesecake', price: '7.50', image: 'https://via.placeholder.com/300x200?text=Cheesecake' },
-                { name: 'Panna Cotta', price: '6.90', image: 'https://via.placeholder.com/300x200?text=Panna+Cotta' },
-                { name: 'Macarons', price: '9.00', image: 'https://via.placeholder.com/300x200?text=Macarons' }
+                { name: 'Crème Brûlée', price: '7.50', image: 'cremebrule.jpeg' },
+                { name: 'Profiteroles', price: '8.50', image: 'gateu.jpeg' },
+                { name: 'Île Flottante', price: '7.00', image: 'glace.jpeg' },
+                { name: 'Fondant au Chocolat', price: '7.90', image: 'fress.jpeg' },
+               
             ];
         } else if (category === 'drinks') {
             items = [
-                { name: 'Jus d\'Orange', price: '4.50', image: 'https://via.placeholder.com/300x200?text=Jus+Orange' },
-                { name: 'Limonade Maison', price: '5.00', image: 'https://via.placeholder.com/300x200?text=Limonade' },
-                { name: 'Thé Glacé', price: '4.00', image: 'https://via.placeholder.com/300x200?text=Thé+Glacé' },
-                { name: 'Smoothie Fruits Rouges', price: '6.50', image: 'https://via.placeholder.com/300x200?text=Smoothie' },
-                { name: 'Cocktail Sans Alcool', price: '7.00', image: 'https://via.placeholder.com/300x200?text=Cocktail' },
-                { name: 'Eau Minérale', price: '3.00', image: 'https://via.placeholder.com/300x200?text=Eau' },
-                { name: 'Soda', price: '4.00', image: 'https://via.placeholder.com/300x200?text=Soda' },
-                { name: 'Café', price: '3.50', image: 'https://via.placeholder.com/300x200?text=Café' },
-                { name: 'Thé', price: '3.50', image: 'https://via.placeholder.com/300x200?text=Thé' },
-                { name: 'Chocolat Chaud', price: '5.00', image: 'https://via.placeholder.com/300x200?text=Chocolat' }
+                { name: 'Jus d\'Orange', price: '4.50', image: 'citron.jpeg' },
+                { name: 'Limonade Maison', price: '5.00', image: 'jus2.jpeg' },
+                { name: 'Thé Glacé', price: '4.00', image: 'baobab.jpeg' },
+                { name: 'Smoothie Fruits Rouges', price: '6.50', image: 'jem.jpeg' },
+                { name: 'Cocktail Sans Alcool', price: '7.00', image: 'mague.jpeg' },
+               
             ];
         }
         
