@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petit Coin - Restaurant gastronomique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="https://via.placeholder.com/150x50?text=Petit+Coin" alt="Petit Coin">
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenue au restaurant <span>Petit Coin</span></h1>
+            <p class="hero-subtitle">Une expérience culinaire unique au cœur de la ville</p>
+            
+            <div class="hero-buttons">
+                <a href="#order" class="btn btn-primary">Commander maintenant</a>
+                <a href="#menu" class="btn btn-secondary">Voir notre menu</a>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/400x400?text=Plat+Signature" alt="Notre plat signature" class="rotating-dish">
+        </div>
+        
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir Petit Coin ?</h2>
+            
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Des chefs talentueux</h3>
+                    <p>Masterchefs du goût avec plus de 15 ans d'expérience</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Commande facile</h3>
+                    <p>Paiement rapide et sécurisé en ligne</p>
+                </div>
+                
+                <div class="advantage-card">
+                    <div class="advantage-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Suivi en temps réel</h3>
+                    <p>Commandes traçables 24h/24 et 7j/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Notre Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="meals">Repas</button>
+                <button class="tab-btn" data-category="desserts">Desserts</button>
+                <button class="tab-btn" data-category="drinks">Boissons</button>
+            </div>
+            
+            <div class="menu-items" id="meals">
+                <!-- Les éléments du menu seront générés par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Ce que nos clients disent</h2>
+            
+            <div class="testimonials-grid">
+                <!-- Les témoignages seront générés par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">À propos de Petit Coin</h2>
+                <p>Fondé en 2010, Petit Coin est rapidement devenu une référence gastronomique dans la région. Notre équipe de chefs passionnés travaille chaque jour pour vous offrir des plats d'exception préparés avec des produits frais et locaux.</p>
+                <p>Nous avons servi plus de 50,000 clients satisfaits et avons remporté le "Prix Barbecue d'Or" trois années consécutives.</p>
+            </div>
+            
+            <div class="about-gallery">
+                <div class="gallery-item"><img src="https://via.placeholder.com/300x300?text=Plat+1" alt="Plat 1"></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/300x300?text=Plat+2" alt="Plat 2"></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/300x300?text=Plat+3" alt="Plat 3"></div>
+                <div class="gallery-item"><img src="https://via.placeholder.com/300x300?text=Plat+4" alt="Plat 4"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <img src="https://via.placeholder.com/150x50?text=Petit+Coin" alt="Petit Coin">
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#order">Commander</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Réseaux sociaux</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-info">
+                    <h3>Horaires</h3>
+                    <p>Lundi - Vendredi: 11h - 22h</p>
+                    <p>Samedi - Dimanche: 10h - 23h</p>
+                    <p>123 Rue Gastronomique, 75000 Paris</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Petit Coin. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
